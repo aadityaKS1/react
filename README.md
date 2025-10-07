@@ -1,71 +1,94 @@
-# Getting Started with Create React App
+Taskmate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple and interactive Todo app built with React
+.
+You can add, edit, delete, and manage tasks, with theme customization and task persistence in localStorage.
 
-## Available Scripts
+💻 Live Demo: https://taskmatapp.netlify.app/
+
+Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode.
+Open http://localhost:3000
+ to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload automatically when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+npm test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
+See the section about running tests
+ for more information.
 
-### `npm run build`
+npm run build
 
-Builds the app for production to the `build` folder.\
+Builds the app for production in the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about deployment
+ for more information.
 
-### `npm run eject`
+npm run eject
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This will copy all configuration files and dependencies (Webpack, Babel, ESLint, etc.) into your project so you have full control.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+All commands except eject will still work, but now you manage everything manually.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For small to medium projects, ejecting is usually not needed.
 
-## Learn More
+Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add, edit, and delete tasks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Theme customization with multiple color schemes.
 
-### Code Splitting
+Tasks are saved in localStorage for persistence.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Simple and clean user interface.
 
-### Analyzing the Bundle Size
+Live preview available: https://taskmatapp.netlify.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Learn More
 
-### Making a Progressive Web App
+You can learn more in the Create React App documentation
+.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To learn React, check out the React documentation
+.
 
-### Advanced Configuration
+Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Deployment
+Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### `npm run build` fails to minify
+Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+Deployment
+
+Taskmate is deployed via Netlify: https://taskmatapp.netlify.app/
+
+See the section about deployment
+ for more information.
+
+npm run build fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
